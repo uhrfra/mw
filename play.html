@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel='stylesheet' href='presentation/style.css'>
+    <link rel='shorcut icon' type='image/png' href='presentation/icons/bomb.png'>
+</head>
+
+<body>
+    <div class='content'>
+        <div class='top-panel'>
+            <div id='flag-count-display' class='top-panel-item' style='width:25%'>
+            </div>
+            <div id='smiley-display' class='top-panel-item' style='width:50%' onclick="window.location.href='./index.html'">
+            </div>
+            <div id='duration-display' class='top-panel-item' style='width:25%'>
+                0
+            </div>
+        </div>
+        <br>
+        <div id='spacer' style='height:20px'></div>
+        <br>
+        <table id='board-panel' class='grid-container'></table>
+        <br>
+        <div id='spacer' style='height:20px'></div>
+        <br>
+    </div>
+    <script src="domain-model/Field.js"></script>
+    <script src="domain-model/Board.js"></script>
+    <script src="domain-model/Game.js"></script>
+    <script src="highscore.js"></script>
+    <script src="presentation/presentation.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

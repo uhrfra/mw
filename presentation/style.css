@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(7, 7, 26);
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 20, 73);
+    border: 300px;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-panel {
+    width: 400px; 
+    height: auto;
+    background-color:dodgerblue;
+    text-align: center;
+
+    margin: auto;
+
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.panel-spacer {
+    width: 400px; 
+    height: auto;
+    background-color: rgb(20, 20, 73);
+    text-align: center;
+
+    
+    margin: auto;
+
+    font-family: sans-serif;
+    color: white;
+}
+
+.button-panel {
+    width: 400px; 
+    height: 60px;
+    background-color:dodgerblue;
+    display: table-cell;
+    text-align: center;
+    line-height: 60px;
+
+    margin: auto;
+
+    font-family: sans-serif;
+    color: white;
+}
+
+.button-panel:hover {
+    background-color: lightskyblue;
+}
+
+.top-panel-item {
+    max-width: 30%;
+    display: inline-block;
+    text-align: top;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.grid-container {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 50, 53);
+    border: 0px;
+}
+
+.field {
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: rgb(120, 120, 130);
+    text-align: center;
+}
+
+.field-opened {
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px;
+    background-color: rgb(190, 190, 180);
+    text-align: center;
+    cursor: default;
+    /* The following properties prevent text selection on double click: */
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: rgb(220, 20, 20);
+}
+
+.four {
+    color: indigo;
+}
+
+.five {
+    color: maroon;
+}
+
+.six {
+    color: turquoise;
+}
+
+.seven {
+    color: black;
+}
+
+.eight {
+    color: rgb(80, 80, 80)
+}
+.field-opened-bomb {
+    background: url('icons/bomb.png');
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: red;
+    text-align: center;
+}
+
+.field-flagged {
+    background: url('icons/flag.png');
+    width: 20px;
+    height: 20px;
+    border: 0px ;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.field-bomb-resolved {
+    background: url('icons/bomb.png');
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: grey;
+    text-align: center;
+}
+
+.field-flag-resolved {
+    background: url('icons/flag.png');
+    content: '/';
+    font: bold;
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.field-opened-bomb {
+    background: url('icons/bomb.png');
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    background-color: red;
+    text-align: center;
+}
